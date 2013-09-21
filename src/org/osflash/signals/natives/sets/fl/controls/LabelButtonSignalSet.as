@@ -1,13 +1,11 @@
-package org.osflash.signals.natives.sets
+package org.osflash.signals.natives.sets.fl.controls
 {
 import fl.controls.LabelButton;
 import fl.events.ComponentEvent;
 import org.osflash.signals.natives.NativeSignal;
 
 /**
- * 
  * @author Behrooz Tahanzadeh
- * 
  */
 
 public class LabelButtonSignalSet extends BaseButtonSignalSet
@@ -21,5 +19,5 @@ public class LabelButtonSignalSet extends BaseButtonSignalSet
 	{
 		return getNativeSignal(ComponentEvent.LABEL_CHANGE, ComponentEvent);
 	}
-}//EOC
-}//EOP
+}
+}

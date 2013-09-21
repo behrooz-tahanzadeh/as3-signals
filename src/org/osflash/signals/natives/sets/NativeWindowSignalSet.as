@@ -5,9 +5,7 @@ import flash.events.*;
 import org.osflash.signals.natives.NativeSignal;
 
 /**
- * 
  * @author Behrooz Tahanzadeh
- * 
  */
 public class NativeWindowSignalSet extends EventDispatcherSignalSet
 {
@@ -55,6 +53,5 @@ public class NativeWindowSignalSet extends EventDispatcherSignalSet
 	{
 		return getNativeSignal(NativeWindowBoundsEvent.RESIZING, NativeWindowBoundsEvent);
 	}
-	
-}//EOC
-}//EOP
+}
+}

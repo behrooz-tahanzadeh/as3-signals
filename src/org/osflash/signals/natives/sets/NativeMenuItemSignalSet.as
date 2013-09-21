@@ -5,9 +5,7 @@ import flash.events.Event;
 import org.osflash.signals.natives.NativeSignal;
 
 /**
- * 
  * @author Behrooz Tahanzadeh
- * 
  */
 public class NativeMenuItemSignalSet extends EventDispatcherSignalSet
 {
@@ -30,6 +28,5 @@ public class NativeMenuItemSignalSet extends EventDispatcherSignalSet
 	{
 		return getNativeSignal(Event.SELECT, Event);
 	}
-	
-}//EOC
-}//EOP
+}
+}

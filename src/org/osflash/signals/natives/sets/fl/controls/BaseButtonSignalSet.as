@@ -1,14 +1,13 @@
-package org.osflash.signals.natives.sets
+package org.osflash.signals.natives.sets.fl.controls
 {
 import fl.controls.BaseButton;
 import fl.events.ComponentEvent;
 import flash.events.Event;
 import org.osflash.signals.natives.NativeSignal;
+import org.osflash.signals.natives.sets.fl.core.UIComponentSignalSet;
 
 /**
- * 
  * @author Behrooz Tahanzadeh
- * 
  */
 
 public class BaseButtonSignalSet extends UIComponentSignalSet
@@ -27,6 +26,5 @@ public class BaseButtonSignalSet extends UIComponentSignalSet
 	{
 		return getNativeSignal(Event.CHANGE, ComponentEvent);
 	}
-	
-}//EOC
-}//EOP
+}
+}

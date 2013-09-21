@@ -1,13 +1,11 @@
-package org.osflash.signals.natives.sets
+package org.osflash.signals.natives.sets.fl.controls
 {
 import fl.controls.DataGrid;
 import fl.events.DataGridEvent;
 import org.osflash.signals.natives.NativeSignal;
 
 /**
- * 
  * @author Behrooz Tahanzadeh
- * 
  */
 
 public class DataGridSignalSet extends SelectableListSignalSet
@@ -51,6 +49,5 @@ public class DataGridSignalSet extends SelectableListSignalSet
 	{
 		return getNativeSignal(DataGridEvent.ITEM_FOCUS_OUT, DataGridEvent);
 	}
-	
-}//EOC
-}//EOP
+}
+}

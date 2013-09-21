@@ -1,13 +1,12 @@
-package org.osflash.signals.natives.sets
+package org.osflash.signals.natives.sets.fl.core
 {
 import fl.core.UIComponent;
 import fl.events.ComponentEvent;
 import org.osflash.signals.natives.NativeSignal;
+import org.osflash.signals.natives.sets.InteractiveObjectSignalSet;
 
 /**
- * 
  * @author Behrooz Tahanzadeh
- * 
  */
 
 public class UIComponentSignalSet extends InteractiveObjectSignalSet
@@ -36,6 +35,5 @@ public class UIComponentSignalSet extends InteractiveObjectSignalSet
 	{
 		return getNativeSignal(ComponentEvent.SHOW, ComponentEvent);
 	}
-	
-}//EOC
-}//EOP
+}
+}

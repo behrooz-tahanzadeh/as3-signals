@@ -1,15 +1,14 @@
-package org.osflash.signals.natives.sets
+package org.osflash.signals.natives.sets.fl.controls
 {
 import fl.controls.TextInput;
 import fl.events.ComponentEvent;
 import flash.events.Event;
 import flash.events.TextEvent;
 import org.osflash.signals.natives.NativeSignal;
+import org.osflash.signals.natives.sets.fl.core.UIComponentSignalSet;
 
 /**
- * 
  * @author Behrooz Tahanzadeh
- * 
  */
 
 public class TextInputSignalSet extends UIComponentSignalSet
@@ -28,6 +27,5 @@ public class TextInputSignalSet extends UIComponentSignalSet
 	{
 		return getNativeSignal(ComponentEvent.ENTER, ComponentEvent);
 	}
-	
-}//EOC
-}//EOP
+}
+}

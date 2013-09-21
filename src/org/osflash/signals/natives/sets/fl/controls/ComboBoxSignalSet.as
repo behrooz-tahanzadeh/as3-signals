@@ -1,4 +1,4 @@
-package org.osflash.signals.natives.sets
+package org.osflash.signals.natives.sets.fl.controls
 {
 import fl.controls.ComboBox;
 import fl.events.ComponentEvent;
@@ -6,11 +6,10 @@ import fl.events.ListEvent;
 import fl.events.ScrollEvent;
 import flash.events.Event;
 import org.osflash.signals.natives.NativeSignal;
+import org.osflash.signals.natives.sets.fl.core.UIComponentSignalSet;
 
 /**
- * 
  * @author Behrooz Tahanzadeh
- * 
  */
 
 public class ComboBoxSignalSet extends UIComponentSignalSet
@@ -55,6 +54,5 @@ public class ComboBoxSignalSet extends UIComponentSignalSet
 	{
 		return getNativeSignal(ScrollEvent.SCROLL, ScrollEvent);
 	}
-	
-}//EOC
-}//EOP
+}
+}

@@ -1,15 +1,14 @@
-package org.osflash.signals.natives.sets
+package org.osflash.signals.natives.sets.fl.controls
 {
 import fl.controls.SelectableList;
 import fl.events.ListEvent;
 import flash.events.Event;
 import flash.events.MouseEvent;
 import org.osflash.signals.natives.NativeSignal;
+import org.osflash.signals.natives.sets.fl.containers.BaseScrollPaneSignalSet;
 
 /**
- * 
  * @author Behrooz Tahanzadeh
- * 
  */
 
 public class SelectableListSignalSet extends BaseScrollPaneSignalSet
@@ -43,6 +42,5 @@ public class SelectableListSignalSet extends BaseScrollPaneSignalSet
 	{
 		return getNativeSignal(ListEvent.ITEM_ROLL_OVER, ListEvent);
 	}
-	
-}//EOC
-}//EOP
+}
+}

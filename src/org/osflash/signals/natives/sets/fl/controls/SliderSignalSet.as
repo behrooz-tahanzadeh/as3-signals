@@ -1,13 +1,12 @@
-package org.osflash.signals.natives.sets
+package org.osflash.signals.natives.sets.fl.controls
 {
 import fl.controls.Slider;
 import fl.events.SliderEvent;
 import org.osflash.signals.natives.NativeSignal;
+import org.osflash.signals.natives.sets.fl.core.UIComponentSignalSet;
 
 /**
- * 
  * @author Behrooz Tahanzadeh
- * 
  */
 
 public class SliderSignalSet extends UIComponentSignalSet
@@ -36,6 +35,5 @@ public class SliderSignalSet extends UIComponentSignalSet
 	{
 		return getNativeSignal(SliderEvent.THUMB_RELEASE , SliderEvent);
 	}
-	
-}//EOC
-}//EOP
+}
+}

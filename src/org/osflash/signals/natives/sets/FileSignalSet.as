@@ -7,9 +7,7 @@ import flash.net.FileReference;
 import org.osflash.signals.natives.NativeSignal;
 
 /**
- * 
  * @author Behrooz Tahanzadeh
- * 
  */
 
 public class FileSignalSet extends FileReferenceSignalSet

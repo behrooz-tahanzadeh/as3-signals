@@ -8,9 +8,7 @@ import flash.filesystem.FileStream;
 import org.osflash.signals.natives.NativeSignal;
 
 /**
- * 
  * @author Behrooz Tahanzadeh
- * 
  */
 
 public class FileStreamSignalSet extends EventDispatcherSignalSet
@@ -44,6 +42,5 @@ public class FileStreamSignalSet extends EventDispatcherSignalSet
 	{
 		return getNativeSignal(ProgressEvent.PROGRESS, ProgressEvent);
 	}
-	
-}//EOC
-}//EOP
+}
+}
